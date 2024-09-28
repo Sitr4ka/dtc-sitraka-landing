@@ -4,16 +4,27 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <style>
+      <title>Sitraka Fifaliana</title>
+
+      <style>
          body {
+            background-color: #080808;
             padding: 25px;
          }
+
          h3:first-child {
             display: inline;
+         }
+
+         h3 {
+            color: #1bbeb0;
             border: solid 1px;
             padding: 5px 8px;
             border-radius: 3px;
-            
+         }
+
+         hr {
+            margin: 18px 0px;
          }
 
          img {
@@ -23,13 +34,25 @@
          }
 
          input {
-            margin: 5px 0;
             height: 25px;
+         }
+
+         textarea,
+         input {
+            margin: 5px 0;
+            padding: 5px 8px;
             border: solid 1.2px;
             border-radius: 8px;
+            background-color: rgba(177, 194, 177, 1);
+            background-color: rgba(177, 194, 177, 1);
+         }
+
+         label {
+            color: white;
          }
 
          p {
+            color: white;
             font-family: monospace;
             line-height: 1.5rem;
          }
@@ -37,29 +60,34 @@
          input:first-child {
             margin-top: 0;
          }
+
+         b {
+            color: rgb(169, 135, 24);
+         }
       </style>
-      <title>Sitraka Fifaliana</title>
    </head>
 
    <body>
       <h3>Biography</h3>
       <hr>
-      <img width="200px" src="img/profil.jpg" alt="My profil">
-      <p>Je m'appelle <b>RAKOTOMALALARINTSOA Sitraka Fifaliana</b>. <br>
-         Je suis actuellement en deuxième année à l'Ecole
-         Nationale d'Informatique. <br>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias <br> 
-         earum hic ad voluptatibus alias,
-         corrupti mollitia iusto tenetur. Culpa.
-      </p>
-      <button>Mon CV</button>
-      <button>
-         <a href="passion.html">Ma passion</a>
-      </button>
-      <button>
-         <a href="artist.html">Inspiration</a>
-      </button>
-      <h3 style="clear: both;">Contactez Moi</h3>
+      <section style="overflow: hidden;">
+         <img width="200px" src="img/profil.jpg" alt="My profil">
+         <p>Je m'appelle <b>RAKOTOMALALARINTSOA Sitraka Fifaliana</b>. <br>
+            Je suis actuellement en deuxième année à l'Ecole
+            Nationale d'Informatique. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestias <br>
+            earum hic ad voluptatibus alias,
+            corrupti mollitia iusto tenetur. Culpa.
+         </p>
+         <button>Mon CV</button>
+         <button>
+            <a href="passion.html">Ma passion</a>
+         </button>
+         <button>
+            <a href="artist.html">Inspiration</a>
+         </button>
+      </section>
+      <h3 style="clear: both; color: #1bbeb0; display: inline-block;">Contactez Moi</h3>
       <form action="">
          <input type="text" name="lastname" id="lastname">
          <label for="lastname">Nom</label> <br>
